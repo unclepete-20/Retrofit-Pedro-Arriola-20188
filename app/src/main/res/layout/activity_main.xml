@@ -38,36 +38,36 @@
         app:layout_constraintTop_toBottomOf="@+id/searchNews">
 
         <Button
-            android:id="@+id/btnUs"
+            android:id="@+id/btnUsa"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="US" />
+            android:text="USA" />
 
         <Button
-            android:id="@+id/btnCo"
+            android:id="@+id/btnMX"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="CO" />
+            android:text="MX" />
 
         <Button
-            android:id="@+id/btnRu"
+            android:id="@+id/btnJapan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="RU" />
+            android:text="JP" />
 
         <Button
-            android:id="@+id/btnCa"
+            android:id="@+id/btnNZ"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="CA" />
+            android:text="NZ" />
 
 
     </LinearLayout>
@@ -83,12 +83,12 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
         <Button
-            android:id="@+id/btnBusiness"
+            android:id="@+id/btnEntertainment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Business"
+            android:text="Entertain"
             android:textSize="12sp" />
 
         <Button
@@ -110,12 +110,12 @@
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/btnSports"
+            android:id="@+id/btnTech"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="Sports"
+            android:text="Tech"
             android:textSize="12sp" />
 
 

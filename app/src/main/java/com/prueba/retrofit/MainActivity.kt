@@ -32,46 +32,46 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
         intRecyclerView()
         searchNew(type,place)
 
-        binding.btnUs.setOnClickListener{
+        binding.btnUsa.setOnClickListener{
             place = "us"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("United States")
         }
-        binding.btnCo.setOnClickListener{
-            place = "co"
+        binding.btnMX.setOnClickListener{
+            place = "mx"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("México")
         }
-        binding.btnRu.setOnClickListener {
-            place = "ru"
+        binding.btnJapan.setOnClickListener {
+            place = "jp"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("Japan")
         }
-        binding.btnCa.setOnClickListener {
-            place = "ca"
+        binding.btnNZ.setOnClickListener {
+            place = "nz"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("New Zealand")
         }
 
-        binding.btnBusiness.setOnClickListener{
-            type = "business"
+        binding.btnEntertainment.setOnClickListener{
+            type = "entertainment"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("Entertainment")
         }
         binding.btnHealth.setOnClickListener{
             type = "health"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("Health")
         }
         binding.btnScience.setOnClickListener {
             type = "science"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("Science")
         }
-        binding.btnSports.setOnClickListener {
-            type = "sports"
+        binding.btnTech.setOnClickListener {
+            type = "technology"
             searchNew(type,place)
-            showMessage("error")
+            showMessage("Technology")
         }
 
     }
